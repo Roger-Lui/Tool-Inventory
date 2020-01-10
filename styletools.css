@@ -1,0 +1,167 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+
+}
+
+/* ---HEADERS-- */
+h1
+{
+ color: #fff;
+ font-family: Century Gothic;
+ font-size: 2em;
+ text-align: left;
+ font-weight: bold;
+ position: absolute;
+ top:80px;
+ left: 70px;
+ 
+ z-index: -1;
+}
+
+h2
+{
+text-decoration: none;
+text-align: center;
+padding: 35px;
+font-size: 40px;
+color: #fff;
+}
+
+/* -----HOME MENU----- */
+ul.home{
+	float: right;
+	list-style-type: none;
+	margin-top: 30px;
+	margin-right: 40px;
+}
+ul.home li{
+
+	display: inline-block;
+}
+
+ul.home li a 
+{
+	text-decoration: none;
+	border-radius: 30px;
+	color: #fff;
+	padding: 7px 30px;
+	border: 1px solid #fff;
+}
+
+ul.home li a:hover  
+{
+	background-color: #fff;
+	color: #000;
+}
+
+/*--------(SECTION) LISTS OF TOOLS--------  */
+
+section.listoftools
+{
+	border-radius: 30px;
+	display: flex;
+	padding: 10px 20px;
+	margin: 10px 20px;
+	color: #65FF33;
+	background:rgba(255,255,255,.1);
+	transition: 1.5s;
+	width: 600px;
+
+
+}
+
+.toolsinv 
+{
+	
+	font-size: 27px;
+	font-family: Bahnschrift;
+	margin-top: 20px;
+	margin-right: 21em;
+	text-decoration: none;
+	position: relative;
+	left:10px;
+	bottom: 20px;
+	
+
+}
+
+ul.toolsinv li:hover
+{
+	transform: scale(1.06);
+	background: #009EBF;
+}
+/* ----------MODAL---------- */
+
+.modaladdtools
+{
+width: 100%;
+height: 100%;
+background-color: rgba(0,0,0,0.7);
+position: absolute;
+top: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+display: none;
+
+}
+
+.add a 
+{
+	color: #fff;
+	font-size: 30px;
+	text-decoration: none;
+	position: absolute;
+	top: 144px;
+	left: 1140px;
+}
+
+.modaladdtoolscontents
+{
+	width: 700px;
+	height: 700px;
+	background-color: #0A5D62;
+	border-radius: 10px;
+}
+
+.close
+{
+	position: absolute;
+	top: 47px;
+	left: 70%;
+	font-size: 40px;
+	cursor: pointer;
+	color: #fff;
+
+}
+
+
+/* ---------------FORM--------------- */
+form.form
+{
+	color: #fff;
+	position: absolute;
+	top: 140px;
+	left: 440px;
+	font-family: Bahnschrift;
+	font-size: 15px;
+	list-style: none;
+
+}
+
+form.form input 
+{
+	margin:20px;
+	width: 250px;
+
+}
+
+div.buttonstyle input
+{
+	margin: 10px;
+	width: 150px;
+	margin-left: 30px;
+}
+
